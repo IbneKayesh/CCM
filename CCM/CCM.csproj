@@ -154,8 +154,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BOT_TEXT_OPTION.cs" />
     <Compile Include="Models\CHAT.cs" />
+    <Compile Include="Models\BOT_TEXT_ASK.cs" />
+    <Compile Include="Models\CHAT_SUPPORT.cs" />
     <Compile Include="Models\CUSTOMER.cs" />
+    <Compile Include="Models\CUSTOMER_DETAIL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +180,7 @@
     <Content Include="Areas\Complaint\Views\web.config" />
     <Content Include="Areas\Complaint\Views\OpenChat\Index.cshtml" />
     <Content Include="Areas\Complaint\Views\OpenChat\Chat.cshtml" />
+    <Content Include="Areas\Complaint\Views\OpenChat\Support.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

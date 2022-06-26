@@ -20,10 +20,12 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { Area = "" }, null)</li>
+                    <li>@Html.ActionLink("About", "About", "Home", new { Area = "" }, null)</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { Area = "" }, null)</li>
                     <li><a href="~/Complaint/OpenChat/Index">Dev</a></li>
+                    <li><a href="~/Complaint/OpenChat/Chat">Web</a></li>
+                    <li><a href="~/Complaint/OpenChat/Support">Sup</a></li>
                 </ul>
             </div>
         </div>

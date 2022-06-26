@@ -10,7 +10,8 @@ namespace CCM.Models
         public string ID { get; set; }
         public string CHAT_TEXT { get; set; }
         public string CHAT_TIME { get; set; }
-        public int REPLY_BY { get; set; }
+        public string REPLY_BY { get; set; }
         public int CHAT_NO { get; set; }
+        public int CAHT_BOT { get; set; }
     }
 }

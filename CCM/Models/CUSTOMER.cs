@@ -12,7 +12,7 @@ namespace CCM.Models
 
         //[Display(Name = "Country Code")]
         //[Required(ErrorMessage = "{0} is required")]
-        //public string COUNTRY_CODE { get; set; }
+        public string COUNTRY_CODE { get; set; }
 
         [Display(Name = "Contact")]
         [Required(ErrorMessage = "{0} is required")]
@@ -24,12 +24,6 @@ namespace CCM.Models
         [Required(ErrorMessage = "{0} is required")]
         [StringLength(50, ErrorMessage = "{0} length is between {2} and {1}", MinimumLength = 3)]
         public string CUSTOMER_NAME { get; set; }
-
-
-        //After complete the respone
-        //public string CUSTOMER_AGE { get; set; }
-        //public DateTime CUSTOMER_DOB { get; set; }
-        //public string CUSTOMER_GENDER { get; set; }
-        //public string CUSTOMER_EMAIL { get; set; }
+        
     }
 }
